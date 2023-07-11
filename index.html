@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div id="logo">Shayan <b>.</b></div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+
+            <div class="links">
+                <a href="#"><i class="fab fa-twitter"></i> </a>
+                <a href="#"><i class="fab fa-facebook"></i> </a>
+                <a href="#"><i class="fab fa-instagram"></i> </a>
+                <a href="#"><i class="fab fa-youtube"></i> </a>
+            </div>
+
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multitext"></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque deleniti dolore cum unde enim similique dolor voluptatibus quae voluptatem?</p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="177.png" id="splash">
+                    <img src="hero.png">
+                </div>
+            </div>
+
+        </div>
+
+       
+        
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multitext",{
+            strings : ["Coder","Designer","Student"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDely : 1400
+        })
+    </script>
+</body>
+</html>
